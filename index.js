@@ -43,7 +43,7 @@ const startMessages = async (chatId, signal) => {
             });
         }, signal);
 
-        await sendWaitMessage(30 * 1000, () => {
+        await sendWaitMessage(20 * 60 * 1000, () => {
             bot.sendVideo(chatId, fs.createReadStream('./video/video_2.mp4'), {
                 caption: `🔥😍 With the help of my VIP channel, a subscriber earned $150,000 in a month, starting with only $50,000 
 Each of my members will get the same results, trading strategies, in-depth market analysis that will significantly increase your profits. 
@@ -58,7 +58,7 @@ Each of my members will get the same results, trading strategies, in-depth marke
             });
         }, signal);
 
-        await sendWaitMessage(30 * 1000, () => {
+        await sendWaitMessage(1 * 60 * 60 * 1000, () => {
             bot.sendVideo(chatId, fs.createReadStream('./video/video_3.mp4'), {
                 caption: `☝️And this is happening on a daily basis! 
 
@@ -74,7 +74,7 @@ Each of my members will get the same results, trading strategies, in-depth marke
             });
         }, signal);
 
-        await sendWaitMessage(30 * 1000, async () => {
+        await sendWaitMessage(3 * 60 * 60 * 1000, async () => {
             await bot.sendMediaGroup(chatId, [
                 {
                     type: 'photo',
@@ -106,13 +106,13 @@ They're the ones who, without fear, did it. I just did! 🔥
             });
         }, signal);
 
-        await sendWaitMessage(30 * 1000, () => {
+        await sendWaitMessage(24 * 60 * 60 * 1000, () => {
             bot.sendPhoto(chatId, fs.createReadStream('./video/image_3.jpg'), {
                 caption: `While you're thinking and seats are running out, someone is making money 🤔`
             });
         }, signal);
 
-        await sendWaitMessage(30 * 1000, () => {
+        await sendWaitMessage(1 * 60 * 60 * 1000, () => {
             bot.sendMessage(chatId, `<b>Why start earning right now? 🤔</b> 
 
 1️⃣ Places are limited. Once the number of participants reaches the limit I have set, I will not provide signals even for money. That's not my goal. 
