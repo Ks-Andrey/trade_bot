@@ -90,6 +90,24 @@ Each of my members will get the same results, trading strategies, in-depth marke
                 }
             ]);
 
+            await bot.sendPhoto(chatId, fs.createReadStream('./video/image_6.jpg'), {
+                caption: `Already ready to start making big money on a daily basis? 🤔 
+
+📲 <b>Then here are some simple instructions: </b>
+
+1) sign up using this link - 🔗 <b>CLICK FOR REGISTRATION</b> (https://pocket1.click/register?utm_campaign=42799&utm_source=affiliate&utm_medium=revshare&a=O5cSSWv6u0TN46&ac=kamifb2&code=50START) 
+2) make a deposit that you are happy with
+3) send me your UID in private messages and I will send you a link to the VIP channel, where you will get up to 20 signals daily, which will take you to a new level of income 💰💰 
+
+After that we will continue our work and I will help you along your way`,
+                reply_markup: {
+                    inline_keyboard: [
+                        [{ text: `I've met all the conditions✅`, url: 't.me/kami_trader_top' }]
+                    ]
+                },
+                parse_mode: 'HTML'
+            });
+
             await bot.sendMessage(chatId, `❗️Just look at the feedback my subscribers send me every day. 
 
 They're the ones who, without fear, did it. I just did! 🔥
@@ -134,6 +152,70 @@ How to get into VIP for free and trade every day 👉 @kami_trader_top
                 }
             });
         }, signal);
+        
+        ////
+        await sendWaitMessage(3 * 60 * 60 * 1000, () => {
+            bot.sendVideo(chatId, fs.createReadStream('./video/video_5.mp4'));
+        }, signal);
+
+        await sendWaitMessage(8 * 60 * 60 * 1000, async () => {
+            await bot.sendVideo(chatId, fs.createReadStream('./video/video_6.mp4'), {
+                caption: `<b>Great night trading session in VIP</b> 👏
+7 profitable trades in a row after the first two losing trades 🔥 🔥 🔥 
+
+Total for VIP members 10 profitable ✅ and 2 losing ❌ trades 
+(if we take into account the free channel)
+
+<i>I am waiting for your feedback and see you tomorrow, good night everyone </i>🥰`,
+                parse_mode: 'HTML',
+                reply_markup: {
+                    inline_keyboard: [
+                        [{ text: '📲 Join VIP now 💵', url: 't.me/kami_trader_top' }]
+                    ]
+                }
+            });
+
+            await bot.sendPhoto(chatId, fs.createReadStream('./video/image_4.jpg'), {
+                caption: `While you're thinking 🫵🏽, someone else is doing 
+Another stack of daily reviews ❤️`,
+                parse_mode: 'HTML',
+                reply_markup: {
+                    inline_keyboard: [
+                        [{ text: '📲 MORE REVIEWS', url: 't.me/kamitrader_reviews' }]
+                    ]
+                }
+            })
+        }, signal);
+
+        await sendWaitMessage(12 * 60 * 60 * 1000, async () => {
+            await bot.sendPhoto(chatId, fs.createReadStream('./video/image_5.jpg'), {
+                caption: `💰Take <b>3870$ in 10 minutes</b>, turn off emotions and stop 
+
+A little bonus from me for 👑 channel members today.`,
+                parse_mode: 'HTML'
+            });
+
+            await bot.sendPhoto(chatId, fs.createReadStream('./video/image_6.jpg'), {
+                caption: `Already ready to start making big money on a daily basis? 🤔 
+
+📲 <b>Then here are some simple instructions: </b>
+
+1) sign up using this link - 🔗 <b>CLICK FOR REGISTRATION</b> (https://pocket1.click/register?utm_campaign=42799&utm_source=affiliate&utm_medium=revshare&a=O5cSSWv6u0TN46&ac=kamifb2&code=50START) 
+2) make a deposit that you are happy with
+3) send me your UID in private messages and I will send you a link to the VIP channel, where you will get up to 20 signals daily, which will take you to a new level of income 💰💰 
+
+After that we will continue our work and I will help you along your way`,
+                reply_markup: {
+                    inline_keyboard: [
+                        [{ text: `I've met all the conditions✅`, url: 't.me/kami_trader_top' }]
+                    ]
+                },
+                parse_mode: 'HTML'
+            });
+        }, signal);
+
+
+
     } catch (e) {
         if (e.name === 'AbortError') {
             console.log(`Operation aborted for chatId: ${chatId}`);
