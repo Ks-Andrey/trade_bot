@@ -38,7 +38,7 @@ const startMessages = async (chatId, signal) => {
                     inline_keyboard: [
                         [{ text: '💵 START EARNING', url: 't.me/kami_trader_top' }],
                         [{ text: '👑 VIP SIGNALS', url: 't.me/kami_trader_top' }],
-                        [{ text: '📊 Registration on the broker', url: 'https://pocket1.click/register?utm_campaign=4719&utm_source=affiliate&utm_medium=revshare&a=EvKCsHAWMxGwdM&ac=reg&code=WELCOME50' }]
+                        [{ text: '📊 Registration on the broker', url: 'https://pocket1.click/register?utm_campaign=793725&utm_source=affiliate&utm_medium=revshare&a=2EtWqnTHn0VAJq&ac=1&code=WELCOME50' }]
                     ]
                 }
             });
@@ -96,7 +96,7 @@ Each of my members will get the same results, trading strategies, in-depth marke
 
 📲 <b>Then here are some simple instructions: </b>
 
-1) sign up using this link - 🔗 <b><a href="https://pocket1.click/register?utm_campaign=4719&utm_source=affiliate&utm_medium=revshare&a=EvKCsHAWMxGwdM&ac=reg&code=WELCOME50">CLICK FOR REGISTRATION</a></b> 
+1) sign up using this link - 🔗 <b><a href="https://pocket1.click/register?utm_campaign=793725&utm_source=affiliate&utm_medium=revshare&a=2EtWqnTHn0VAJq&ac=1&code=WELCOME50">CLICK FOR REGISTRATION</a></b> 
 2) make a deposit that you are happy with
 3) send me your UID in private messages and I will send you a link to the VIP channel, where you will get up to 20 signals daily, which will take you to a new level of income 💰💰 
 
@@ -201,7 +201,7 @@ A little bonus from me for 👑 channel members today.`,
 
 📲 <b>Then here are some simple instructions: </b>
 
-1) sign up using this link - 🔗 <b><a href="https://pocket1.click/register?utm_campaign=4719&utm_source=affiliate&utm_medium=revshare&a=EvKCsHAWMxGwdM&ac=reg&code=WELCOME50">CLICK FOR REGISTRATION</a></b> 
+1) sign up using this link - 🔗 <b><a href="https://pocket1.click/register?utm_campaign=793725&utm_source=affiliate&utm_medium=revshare&a=2EtWqnTHn0VAJq&ac=1&code=WELCOME50">CLICK FOR REGISTRATION</a></b> 
 2) make a deposit that you are happy with
 3) send me your UID in private messages and I will send you a link to the VIP channel, where you will get up to 20 signals daily, which will take you to a new level of income 💰💰 
 
